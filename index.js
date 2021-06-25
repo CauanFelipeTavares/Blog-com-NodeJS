@@ -20,7 +20,7 @@
     app.use(express.static(path.join(__dirname + '/public')))
 //Rotas
     app.get('/', (req,res) => {
-        res.send("Pagina principal, pega no meu...")
+        res.send("Pagina principal, adicionar futuramente um layout")
     })
 
     app.use('/admin', admin)
