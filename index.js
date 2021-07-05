@@ -1,10 +1,10 @@
 //Módulos
 
     const express = require('express')
+    const app = express()
     const handlebars = require('express-handlebars')
     const router = require('./routes/admin')
     const mongoose = require('mongoose')
-    const app = express()
     const admin = require('./routes/admin')
     const path = require('path')
     const session = require('express-session')
