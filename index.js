@@ -52,7 +52,7 @@
 
 //Rota Principal
     app.get('/', (req,res) => {
-        res.send("Pagina principal, adicionar futuramente um layout")
+        res.render('user/index')
     })
 
 //Rotas Admin
@@ -65,7 +65,3 @@
     app.listen(port,() => {
         console.log("Servidor rodando em localhost:" + port)
     })
-    
-/*
-localhost:8081
-*/

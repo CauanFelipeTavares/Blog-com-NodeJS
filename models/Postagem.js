@@ -3,19 +3,19 @@ const Schema = mongoose.Schema
 
 const Postagem = new Schema({
     titulo:{
-        type:string,
+        type:String,
         required: true
     },
     slug:{
-        type:string,
+        type:String,
         required: true
     },
     descricao:{
-        type:string,
+        type:String,
         required: true
     },
     conteudo:{
-        type:string,
+        type:String,
         required: true
     },
     categoria:{
@@ -29,4 +29,4 @@ const Postagem = new Schema({
     }
 })
 
-mongoose.model("portagens", Postagem)
+mongoose.model("postagens", Postagem)
